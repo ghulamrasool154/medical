@@ -1,0 +1,1889 @@
+.row {
+    --bs-gutter-x: 0;
+}
+
+a {
+    color: #64c6e1;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img.width100 {
+    width: 100px;
+}
+
+/* gloabal */
+
+header .container-fluid {
+    padding: 0 100px;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #e1e7ead9;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.sec-center img {
+    height: 7px;
+}
+
+header .navbar-brand {
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #004872;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #79cde5;
+}
+
+
+/* home section */
+
+section#home {
+    background-image: url("./assests/images/homebg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+section#home .leftside p.adv {
+    color: #231f20;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+section#home .rightside {
+    position: relative;
+}
+
+section#home .rightside .aboutauthor {
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    right: 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.6) 10%, rgba(255, 255, 255, 1) 100%);
+    color: black;
+    padding: 30px 100px;
+}
+
+section#home .rightside .aboutauthor p {
+    color: #231f20;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section#home .rightside .aboutauthor h1 {
+    color: #004872;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+section#home h4.subtitle {
+    color: #004872;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+section#home h1.title {
+    color: #004872;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 65px;
+    line-height: 65px;
+}
+
+section#home h1.title>span {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+section#home .container-fluid {
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 0;
+}
+
+section#home .leftside .inner {
+    padding: 150px 0;
+}
+
+.inner h2 {
+    color: #004872;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: initial;
+    padding-left: 11px;
+    margin: 0;
+}
+
+
+/* home section */
+
+#founder {
+    background-image: url("./assests/images/Image_045.jpg");
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sameStyle {
+    color: #62cce9;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#founder .container-fluid {
+    padding-left: 0px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 100px;
+}
+
+#founder .yearupdate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+#founder .rightside .subtitle {
+    color: #62cce9;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#founder .rightside .manyvillafna {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+#founder .rightside .founder {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.yearupdate .lefside .contnet h1 {
+    color: #62cce9;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.yearupdate .lefside .contnet p {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.yearupdate .lefside {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+#founder .yearupdate.last .center img {
+    width: 100px;
+}
+
+.yearupdate .center {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+#founder .yearupdate.last .center {
+    width: 50%;
+}
+
+.yearupdate .center .customWidth {
+    width: 80px;
+}
+
+.yearupdate .rightside {
+    width: 10%;
+}
+
+.yearupdate .lefside .img {
+    width: 30%;
+}
+
+.yearupdate .lefside .contnet {
+    width: 60%;
+}
+
+#founder .leftsidess .aboutauthor {
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    right: 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.03) 100%);
+    color: black;
+    padding: 30px 178px;
+}
+
+#founder .leftsidess .aboutauthor p {
+    color: #014974;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#founder .rightside {
+    padding-left: 50px;
+}
+
+
+/* =============================================================================
+| SSS JAM BYPASS SECTION START FROM HERE
+============================================================================= */
+
+.section_padding {
+    padding: 200px 0px;
+}
+
+.span1 {
+    color: #004876;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+    float: left;
+}
+
+.span2 {
+    color: #383838;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+    padding-left: 20px;
+}
+
+.containerpadding {
+    padding: 0px 100px;
+}
+
+#jam_bypass {
+    background-image: url("./assests/images/Image_064.jpg");
+    background-size: cover;
+}
+
+#jam_bypass .regulation {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+#jam_bypass .offerbox h2 {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.jam_subtitle {
+    color: #62cce9;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.jam_pare,
+.jam_ul li {
+    font-family: Montserrat, serif;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.jam_ul li {
+    list-style: none;
+    background-image: url('./assests/images/Image_084.png');
+    background-repeat: no-repeat;
+    background-position: left 20px;
+    background-size: 10px;
+    padding: 10px 25px;
+}
+
+.jam_bold {
+    font-weight: bold;
+}
+
+
+/* solution */
+
+section#jam_concept {
+    background-image: url("./assests/images/Image_081.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#jam_concept .context h2.subtitle {
+    color: #004876;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.jam_section_title {
+    font-size: 4em;
+}
+
+.jam_section_title {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 4em;
+}
+
+.jam_color_blue {
+    color: #004876;
+}
+
+.jam_color_white {
+    color: #fff;
+}
+
+.jam_color_black {
+    color: #000;
+}
+
+section#jam_concept .context h2.subtitle {
+    font-size: 2.1em;
+}
+
+section#jam_concept .context p.disc {
+    color: #014974;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 2.1em;
+}
+
+#jam_future_cabg {
+    background-image: url("./assests/images/Image_091.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#jam_section1 {
+    background-image: url("./assests/images/Image_154.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#jam_section2 {
+    background-image: url("./assests/images/Image_156.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#jam_timeline {
+    background-image: url("./assests/images/Image_110.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jam_align_end {
+    text-align: end;
+}
+
+.jam_align_center {
+    text-align: center;
+}
+
+.timelineimg {
+    width: 70%;
+    margin: 50px auto;
+    display: block;
+}
+
+.jam_ul_inline {
+    display: inline-block;
+    text-align: initial;
+    color: #fff;
+    font-family: Montserrat, serif;
+    text-decoration: none;
+}
+
+.timelinep {
+    color: #62cce9;
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+
+/* =============================================================================
+| JAM CONCEPT CSS END HERE
+============================================================================= */
+
+
+/* chanllange */
+
+#challenge {
+    background-image: url("./assests/images/Image_053.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#challenge .container-fluid {
+    padding: 100px;
+}
+
+#challenge .heart {
+    color: #62cce9;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0;
+    line-height: initial;
+    padding-left: 35px;
+}
+
+#challenge .global {
+    color: #004876;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+#challenge .customMarin {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#challenge .globalissue {
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+}
+
+#challenge .globalissue .img-section {
+    width: 25%;
+    margin-right: 20px;
+}
+
+#challenge .globalissue .context-section {
+    width: 75%;
+    padding-right: 30px;
+    text-align: start;
+}
+
+#challenge .globalissue .context-section p {
+    color: #383838;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#challenge .globalissue h1 {
+    color: #004876;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+/* solution start*/
+
+
+/* solution */
+
+section#solution {
+    background-image: url("./assests/images/Image_077.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+
+section#solution .context {
+    text-align: end;
+    padding-left: 50px;
+}
+
+section#solution .context h1.subtitle,
+section#solution .context h1.title {
+    color: #004876;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+section#solution .context h1.subtitle {
+    font-size: 30px;
+}
+
+section#solution .context p.disc {
+    color: #014974;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section#solution .context h6.tags {
+    color: #62cce9;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+section#solution .solution-box {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    margin: 20px 0;
+}
+
+
+/* section#solution  .solution-box .img_sec */
+
+section#solution .solution-box .context_sec {
+    padding-left: 20px;
+}
+
+section#solution .solution-box .context_sec p {
+    color: #383838;
+    font-family: Montserrat, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+/* solution end */
+
+
+/* Offering start */
+
+#offering {
+    background-image: url("./assests/images/Image_110.jpg");
+}
+
+#offering .container-fluid {
+    padding: 100px;
+    text-align: center;
+}
+
+#offering .container-fluid .regulation {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+#offering .container-fluid .viewoffer {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#offering .offerbox h1 {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 70px;
+}
+
+#offering .offerbox h2 {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#offering .customMrgin {
+    padding: 60px 0;
+}
+
+#offering .customMrgin .box {
+    padding: 0 20px;
+}
+
+.offerbox {
+    background: linear-gradient(180deg, rgb(103 204 231 / 0%) 0%, rgba(103, 204, 231, 1) 100%);
+    padding: 100px 0;
+    border-radius: 25px;
+}
+
+
+/* Offering close*/
+
+
+/* leadership */
+
+section#leadership {
+    background-image: url("./assests/images/Image_110.jpg");
+}
+
+section#leadership .portal h1 {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+section#leadership .portal h4 {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section#leadership .portal p {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+section#leadership .portal {
+    padding-left: 100px;
+}
+
+section#leadership .rightside {
+    text-align: right;
+}
+
+section#leadership .rightside img {
+    width: 80%;
+}
+
+
+/* footer */
+
+footer {
+    background: #004872;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Montserrat, serif;
+}
+
+#leadership .container-fluid {
+    padding: 100px;
+}
+
+.redline img {
+    height: 7px;
+}
+
+
+/* sh-css-start-here */
+
+section#leadership-team h1.title,
+#medtech-advisors h1.title,
+section#business-advisors h1.title,
+section#graft h1.title,
+section#opportunity h1.title,
+section#proceeds h1.title {
+    color: #004872;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 65px;
+    line-height: 65px;
+}
+
+section#leadership-team {
+    background-image: url(./assests/images/Image_150.jpg);
+}
+
+section#medtech-advisors {
+    background-image: url(./assests/images/Image_143.jpg);
+}
+
+section#business-advisors {
+    background-image: url(./assests/images/Image_150.jpg);
+}
+
+section#graft {
+    background-image: url(./assests/images/Image_071.jpg);
+}
+
+section#opportunity {
+    background-image: url(./assests/images/Screenshot_3.png);
+}
+
+section#proceeds {
+    background-image: url(./assests/images/Image_116.jpg);
+}
+
+section#leadership-team,
+section#medtech-advisors,
+section#business-advisors,
+section#graft,
+section#opportunity,
+section#proceeds {
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.leadership-main img,
+.medtech-advisors-main img,
+.business-advisors-main img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.leadership-main,
+.medtech-advisors-main,
+.business-advisors-main {
+    margin-top: 70px;
+    text-align: center;
+    padding: 50px;
+}
+
+.leadership-main h4,
+.medtech-advisors-main h4,
+.business-advisors-main h4 {
+    color: #0077BC;
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0;
+}
+
+.leadership-main p,
+.medtech-advisors-main p,
+.business-advisors-main p {
+    color: #0077BC;
+    font-weight: 500;
+}
+
+.leadership-main ul li,
+.medtech-advisors-main ul li,
+.business-advisors-main ul li {
+    color: #383838;
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+}
+
+section#graft h2,
+section#opportunity h2 {
+    color: #62CCE9;
+    font-size: 52px;
+    line-height: 52px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+section#graft h3 {
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.graft-main {
+    padding: 30px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.graft-main img {
+    margin-bottom: 20px;
+    width: 200px;
+    max-width: 100%;
+}
+
+.graft-main h4 {
+    font-size: 38px;
+    color: #62CCE9;
+    font-weight: 600;
+}
+
+.graft-icon {
+    width: 80%;
+}
+
+.graft-main p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section#opportunity h1,
+section#opportunity h2,
+section#opportunity .redline {
+    text-align: end;
+}
+
+section#opportunity h3 {
+    color: #004872;
+    text-align: end;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.opportunity-main {
+    padding: 30px;
+}
+
+.opportunity-main img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.opportunity-main p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+section#proceeds h1 {
+    color: #fff !important;
+    text-align: center;
+}
+
+section#proceeds .redline {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+section#proceeds p {
+    color: #fff;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+section#proceeds a {
+    text-align: center;
+    display: block;
+    font-size: 28px;
+}
+
+section#proceeds img:nth-child(3) {
+    width: 1350px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* sh-css-end-here */
+
+
+/* responsive  */
+
+
+/* responsive */
+
+
+/* header */
+
+#home .man-mobile {
+    display: none;
+}
+
+p.span2 {
+    width: 45%;
+}
+
+p.span3 {
+    margin: 0;
+}
+
+@media screen and (max-width: 1400px) {
+    #founder .container-fluid {
+        padding-right: 50px;
+    }
+
+    #founder .rightside {
+        padding-left: 0px;
+    }
+
+    #founder .rightside {
+        background: linear-gradient(-90deg, #004872cf 0%, #084298d4 100%);
+        padding: 20px;
+    }
+
+    .yearupdate .lefside .img {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    /* home  */
+    section#home h1.title,
+    .jam_color_blue,
+    .jam_section_title,
+    section#leadership-team h1.title,
+    #medtech-advisors h1.title,
+    section#business-advisors h1.title,
+    section#graft h1.title,
+    section#opportunity h1.title,
+    section#proceeds h1.title,
+    section#graft h2,
+    section#opportunity h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    section#home h1.title>span {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    section#home .rightside .aboutauthor p {
+        font-size: 14pt;
+    }
+
+    #founder .rightside .manyvillafna {
+        font-size: 35px;
+    }
+
+    /* home  */
+    #founder .leftsidess .aboutauthor {
+        padding: 30px 90px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .leftsidess,
+    #founder .rightside {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #founder .rightside .founder {
+        font-size: 15px;
+    }
+
+    #challenge .globalissue h1 {
+        font-size: 30px;
+    }
+
+    #challenge .globalissue .context-section p {
+        font-size: 15px;
+    }
+
+    #offering .container-fluid .regulation,
+    section#leadership .portal h1 {
+        font-size: 35px !important;
+    }
+
+    #offering .container-fluid .viewoffer {
+        font-size: 20px;
+    }
+
+    section#solution .context {
+        padding: 0;
+    }
+
+    section#solution .context p.disc {
+        font-size: 15px;
+    }
+
+    section#solution .context h1.subtitle,
+    section#solution .context h1.title {
+        font-size: 25px;
+    }
+
+    section#solution .context h6.tags {
+        font-size: 15px;
+    }
+
+    section#solution .solution-box .context_sec p {
+        font-size: 15px;
+    }
+
+    section#leadership .portal {
+        padding-left: 0px !important;
+    }
+
+    .graft-icon {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+    /* home  */
+    #founder .leftsidess .aboutauthor,
+    section#home .rightside .aboutauthor,
+    section#home .rightside {
+        position: initial;
+    }
+
+    header .container-fluid {
+        padding: 0 50px;
+    }
+
+    section#solution,
+    #offering .container-fluid,
+    #challenge .container-fluid,
+    #founder .container-fluid,
+    #home .container-fluid,
+    #leadership .container-fluid {
+        padding: 50px !important;
+        text-align: center;
+    }
+
+    section#home .leftside .inner {
+        padding: 80px 0;
+    }
+
+    #challenge .globalissue {
+        display: flex;
+        margin: 10px 0;
+    }
+
+    section#leadership .portal {
+        padding: 0px;
+        text-align: left;
+    }
+
+    #offering .customMrgin .box {
+        padding: 20px;
+    }
+
+    section#leadership .portal h1 {
+        font-size: 25px;
+    }
+
+    section#leadership .portal h4 {
+        font-size: 20px;
+    }
+
+    #founder .rightside {
+        padding-left: 0;
+    }
+
+    #leadership .portal p {
+        font-size: 16px !important;
+    }
+
+    /* home */
+    .redline img {
+        height: 5px;
+        max-width: 150px;
+        width: 100%;
+    }
+
+    section#solution .context h6.tags {
+        color: #383838;
+    }
+
+    section#solution .container-fluid {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 15px;
+    }
+
+    #founder .rightside {
+        padding-left: 0;
+        /* background-color: #004876db; */
+        padding: 15px;
+    }
+
+    .yearupdate .lefside .contnet {
+        text-align: left;
+    }
+
+    section#leadership-team,
+    section#medtech-advisors,
+    section#business-advisors {
+        padding: 50px;
+    }
+
+    section#leadership-team h1.title,
+    #medtech-advisors h1.title,
+    section#business-advisors h1.title {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .redline {
+        text-align: center;
+    }
+
+    .leadership-main,
+    .medtech-advisors-main,
+    .business-advisors-main {
+        padding: 20px;
+    }
+
+    .leadership-main ul li,
+    .medtech-advisors-main ul li,
+    .business-advisors-main ul li {
+        font-size: 16px;
+    }
+
+    .leadership-main h4,
+    .medtech-advisors-main h4,
+    .business-advisors-main h4 {
+        font-size: 20px;
+    }
+
+    .leadership-main p,
+    .medtech-advisors-main p,
+    .business-advisors-main p {
+        font-size: 14px;
+    }
+
+    .graft-icon {
+        width: 100%;
+    }
+
+    section#home .leftside p.adv {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .section_padding,
+    section#leadership-team,
+    section#medtech-advisors,
+    section#business-advisors,
+    section#graft,
+    section#opportunity,
+    section#proceeds {
+        padding: 50px;
+    }
+
+    .containerpadding {
+        padding: 0;
+    }
+
+    .jam_color_blue,
+    section#jam_concept .context h2.subtitle,
+    section#jam_concept .context p.disc,
+    section#home h1.title,
+    .jam_color_blue,
+    .jam_section_title,
+    section#leadership-team h1.title,
+    #medtech-advisors h1.title,
+    section#business-advisors h1.title,
+    section#graft h1.title,
+    section#opportunity h1.title,
+    section#proceeds h1.title,
+    section#graft h2,
+    section#opportunity h2,
+    section#opportunity h3,
+    .jam_subtitle,
+    .jam_pare,
+    section#graft h3,
+    section#solution .context p.disc,
+    section#solution .context h6.tags,
+    .sec-center,
+    section#opportunity .redline {
+        text-align: center;
+    }
+
+    .jam_subtitle {
+        display: block;
+    }
+
+    section#jam_concept .context h2.subtitle,
+    section#jam_concept .context p.disc {
+        background-color: #ffffffd1;
+    }
+
+    #founder .leftsidess .aboutauthor {
+        padding: 30px 60px;
+    }
+
+    p.span2 {
+        width: 75%;
+    }
+
+    .graft-main img {
+        margin-bottom: 10px;
+        width: 100px;
+    }
+
+    .graft-main h4,
+    section#graft h3 {
+        font-size: 24px;
+    }
+
+    .graft-main {
+        padding: 30px 15px;
+    }
+
+    .graft-main p {
+        font-size: 16px;
+    }
+
+    section#home h1.title,
+    .jam_color_blue,
+    .jam_section_title,
+    section#leadership-team h1.title,
+    #medtech-advisors h1.title,
+    section#business-advisors h1.title,
+    section#graft h1.title,
+    section#opportunity h1.title,
+    section#proceeds h1.title,
+    section#graft h2,
+    section#opportunity h2 {
+        font-size: 36px;
+        line-height: initial;
+    }
+
+    .graft-main,
+    section#graft h2 {
+        margin-top: 15px;
+    }
+
+    section#opportunity h3 {
+        font-size: 28px;
+    }
+
+    .opportunity-main {
+        text-align: center;
+    }
+
+    section#jam_concept .context h2.subtitle,
+    section#jam_concept .context p.disc {
+        font-size: 30px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #home .man-mobile {
+        display: block !important;
+        max-width: 250px;
+        margin: 20px auto 0 auto;
+    }
+
+    #challenge .globalissue {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #challenge .globalissue .img-section {
+        width: 100%;
+    }
+
+    .img-section img {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    #challenge .globalissue .context-section {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .context-section {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .span1 {
+        order: 1;
+    }
+
+    .span2 {
+        order: 2;
+    }
+
+    .span3 {
+        order: 3;
+    }
+
+    p.span2 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #challenge .globalissue .img-section {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* home  */
+    /* #founder .container-fluid, */
+    header .container-fluid {
+        padding: 0 30px;
+    }
+
+    section#solution .context {
+        text-align: center;
+    }
+
+    section#home .leftside .inner {
+        padding: 30px 0;
+    }
+
+    section#home h1.title,
+    section#home h4.subtitle {
+        font-size: 35px;
+    }
+
+    section#home h1.title>span {
+        font-size: 40px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    #challenge .heart {
+        font-size: 20px;
+    }
+
+    #challenge .global {
+        font-size: 30px;
+    }
+
+    #challenge .globalissue h1 {
+        font-size: 20px;
+    }
+
+    #offering .offerbox h1 {
+        font-size: 40px;
+    }
+
+    #offering .offerbox h2 {
+        font-size: 25px;
+    }
+
+    section#leadership .rightside {
+        text-align: center;
+    }
+
+    section#leadership .portal {
+        text-align: center;
+    }
+
+    section#solution .solution-box {
+        padding-left: 0;
+    }
+
+    /* home  */
+}
+
+@media screen and (max-width: 767px) {
+    .offerbox {
+        padding: 50px;
+    }
+
+    section#leadership-team h1.title,
+    #medtech-advisors h1.title,
+    section#business-advisors h1.title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .leadership-main,
+    .medtech-advisors-main,
+    .business-advisors-main {
+        padding: 0px;
+    }
+
+    section#home h1.title,
+    .jam_color_blue,
+    .jam_section_title,
+    section#leadership-team h1.title,
+    #medtech-advisors h1.title,
+    section#business-advisors h1.title,
+    section#graft h1.title,
+    section#opportunity h1.title,
+    section#proceeds h1.title,
+    section#graft h2,
+    section#opportunity h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    section#graft h3 {
+        text-align: center;
+    }
+
+    section#jam_concept .context h2.subtitle,
+    section#jam_concept .context p.disc {
+        font-size: 30px;
+    }
+
+    .jam_pare,
+    .jam_ul li {
+        font-size: 17px;
+    }
+
+    #founder .yearupdate {
+        flex-direction: column;
+    }
+
+    .yearupdate .lefside {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .yearupdate .lefside .contnet {
+        width: 100%;
+        text-align: center;
+    }
+
+    .yearupdate .lefside .img,
+    .yearupdate .center,
+    #founder .yearupdate.last .center {
+        width: 100%;
+    }
+
+    .yearupdate .lefside .img {
+        margin-bottom: 15px;
+    }
+
+    .yearupdate {
+        padding-bottom: 30px !important;
+        border-bottom: 1px solid #ffffff29;
+        margin-bottom: 35px !important;
+    }
+
+    .yearupdate:last-child {
+        border-bottom: none;
+    }
+
+    .yearupdate .lefside .contnet p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* #founder .yearupdate {
+        flex-direction: column;
+        margin: 25px 0;
+        border-bottom: 1px solid #18181842;
+    } */
+    .yearupdate .lefside,
+    .yearupdate .center,
+    .yearupdate .rightside {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .yearupdate .lefside {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .yearupdate .center {
+        margin: 25px 0;
+    }
+
+    #founder .yearupdate.last .center {
+        width: 100%;
+    }
+
+    #founder .rightside .manyvillafna {
+        font-size: 25px;
+    }
+
+    #founder .rightside .founder {
+        font-size: 10px;
+    }
+
+    #founder .rightside {
+        margin-top: 20px;
+    }
+
+    #challenge .globalissue .img-section {
+        width: 25%;
+    }
+
+    #challenge .globalissue .context-section {
+        width: 75%;
+        padding-right: 0;
+    }
+
+    #offering .customMrgin .box {
+        padding: 20px 0;
+    }
+
+    section#home h1.title,
+    section#home h4.subtitle {
+        font-size: 25px;
+    }
+
+    section#home h1.title>span {
+        font-size: 30px;
+    }
+
+    #founder .rightside .subtitle {
+        font-size: 20px;
+    }
+
+    #offering .container-fluid .regulation {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #founder .yearupdate .img img {
+        margin-bottom: 20px;
+    }
+
+    section#leadership-team,
+    section#medtech-advisors,
+    section#business-advisors {
+        padding: 30px;
+    }
+
+    .leadership-main img,
+    .medtech-advisors-main img,
+    .business-advisors-main img {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .leadership-main,
+    .medtech-advisors-main,
+    .business-advisors-main {
+        margin-top: 50px;
+    }
+
+    section#leadership-team h1.title,
+    #medtech-advisors h1.title,
+    section#business-advisors h1.title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    section#home h1.title,
+    .jam_color_blue,
+    .jam_section_title,
+    section#leadership-team h1.title,
+    #medtech-advisors h1.title,
+    section#business-advisors h1.title,
+    section#graft h1.title,
+    section#opportunity h1.title,
+    section#proceeds h1.title,
+    section#graft h2,
+    section#opportunity h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .jam_subtitle {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .jam_pare,
+    .jam_ul li {
+        font-size: 16px;
+        overflow: auto;
+    }
+
+    #jam_bypass .containerpadding {
+        padding: 30px;
+        background-color: #0000008c;
+    }
+
+    #jam_bypass {
+        padding: 0;
+    }
+
+    .section_padding,
+    section#leadership-team,
+    section#medtech-advisors,
+    section#business-advisors,
+    section#graft,
+    section#opportunity,
+    section#proceeds {
+        padding: 30px;
+    }
+
+    section#graft h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .graft-main img {
+        margin-bottom: 10px;
+        width: 100px;
+    }
+
+    .graft-main {
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .graft-main h4 {
+        font-size: 24px;
+    }
+
+    .graft-main p,
+    .opportunity-main p,
+    section#proceeds p {
+        font-size: 16px;
+    }
+
+    section#solution,
+    #offering .container-fluid,
+    #challenge .container-fluid,
+    #founder .container-fluid,
+    #home .container-fluid,
+    #leadership .container-fluid {
+        padding: 30px !important;
+    }
+
+    section#jam_concept .context h2.subtitle,
+    section#jam_concept .context p.disc,
+    section#proceeds a {
+        font-size: 20px;
+    }
+
+    section#opportunity h3 {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .opportunity-main {
+        padding: 15px;
+        text-align: center;
+    }
+
+    section#opportunity .redline {
+        text-align: center;
+    }
+
+    .timelineimg {
+        width: 100%;
+        margin: 0;
+    }
+
+    #offering .customMrgin,
+    section#proceeds img:nth-child(3) {
+        padding: 0;
+    }
+
+    section#leadership .rightside img {
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    .leadership-main,
+    .medtech-advisors-main,
+    .business-advisors-main {
+        margin-top: 20px;
+    }
+
+    .leadership-main ul li,
+    .medtech-advisors-main ul li,
+    .business-advisors-main ul li {
+        text-align: left;
+        padding: 5px 0px;
+    }
+
+    #founder .leftsidess .aboutauthor {
+        padding: 30px 25px;
+    }
+
+    section#graft h2,
+    section#opportunity h2 {
+        font-weight: 600;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    section#home h1.title,
+    .jam_color_blue,
+    .jam_section_title,
+    section#leadership-team h1.title,
+    #medtech-advisors h1.title,
+    section#business-advisors h1.title,
+    section#graft h1.title,
+    section#opportunity h1.title,
+    section#proceeds h1.title,
+    section#graft h2,
+    section#opportunity h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .graft-main {
+        padding: 10px 0;
+        margin-top: 0;
+    }
+
+    section#home .rightside .aboutauthor {
+        padding: 30px;
+    }
+
+    .yearupdate .lefside,
+    .yearupdate .center,
+    .yearupdate .rightside {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    section#leadership-team,
+    section#medtech-advisors,
+    section#business-advisors {
+        padding: 30px 15px;
+    }
+
+    .jam_color_black {
+        padding: 0;
+    }
+
+    #founder .leftsidess .aboutauthor {
+        padding: 15px;
+    }
+
+    #founder .container-fluid {
+        padding: 30px 10px !important;
+    }
+
+    .yearupdate .center .customWidth {
+        width: 70px;
+    }
+
+    #founder .yearupdate.last .center img {
+        width: 88px;
+    }
+
+    .yearupdate:last-child {
+        border-bottom: none;
+        margin-bottom: 0 !important;
+    }
+}
